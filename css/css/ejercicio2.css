@@ -1,15 +1,45 @@
-h1 {
+#titulo {
     color: cadetblue;
 }
 
-strong {
+strong, a, th {
     color: red;
 }
 
-.destacado {
+.destacado, .especial, td strong {
     color: #F5BA26;
 }
 
-#subtitulo {
+#subtitulo, em, caption {
     color: blue;
+}
+
+span.especial {
+    color: purple;
+}
+
+td {
+    color: green;
+    border: black 1px solid;
+}
+
+div p {
+    color: forestgreen;
+}
+
+#especial {
+    color: fuchsia;
+}
+
+div p a {
+    color: darkseagreen
+}
+
+table {
+    border: black 1px solid;
+    border-collapse: collapse;
+}
+
+th {
+    border: black 1px solid;
 }
