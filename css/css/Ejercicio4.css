@@ -54,15 +54,34 @@ img { border: none; }
 .menu {
     padding: 0.5em;
     margin-bottom: 0.5em;
+    border-bottom: 1px #004C99;
 }
 
-.noticias, .publicidad, .principal, .secundario {
+.noticias{
+    padding: 0.5em;
+    border: 1px #C5C5C5;
+}
+
+.publicidad {
+    padding: 0.5em;
+    border-style: dashed 1px #CC6600;
+}
+
+.principal {
+    padding: 0.5em;
+}
+
+.secundario {
     padding: 0.5em;
 }
 
 .pie {
     padding-bottom, padding-top: 0.5em;
     margin-top: 1em;
+}
+
+.articulo {
+    border: 0.5em;
 }
 
 img {
